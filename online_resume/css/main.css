@@ -97,7 +97,6 @@ body {
 }
 
 
-
 a {
     text-decoration: none;
     color: #639;
@@ -108,7 +107,13 @@ a:hover {
 }
 
 
-.site_header h1 {
+.my_name h1 {
+    color: #639;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 500;
+   font-size: 2.5em;
+   line-height: 1.75em;
+   text-align: center;
     margin: 0;
     padding: 0;
 }
@@ -125,6 +130,17 @@ a:hover {
     border-top: 3px dotted #FF6900;
     margin: 0;
     padding: 0;  
+}
+
+.resume_header p {
+    color: #639;
+    font-size: 1em;
+    text-align: center;
+    line-height: .25em;
+    margin: 1%;
+    padding: 1%;
+
+
 }
 
 .page_title h1 {
@@ -295,6 +311,7 @@ span {
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 1.25dppx),
        (min-resolution: 120dpi) {
+        size: 5.5in 8.5in;
     /* Style adjustments for high resolution devices */
 }
 
