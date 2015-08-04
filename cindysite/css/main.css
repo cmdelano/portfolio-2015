@@ -137,10 +137,11 @@ a:hover {
     padding-bottom: 1%;
 }
 
-.intro_text h4 {
-    color: #639;
-/*    text-align: center;
-*/    font-size: 1.25em;
+
+.link_to_resume h4 {
+    color: #FF6900;
+    text-align: center;
+    font-size: 1.25em;
     line-height: 1.75em;
     margin: 0;
     padding-top: 3% 0 0 0;
@@ -148,7 +149,7 @@ a:hover {
 
 .article_title h3 {
     color: #FF6900;
-    font-size: 2em;
+    font-size: 1.75em;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     text-align: left;
@@ -156,7 +157,14 @@ a:hover {
     margin-bottom: 2%;
 }
 
-
+.professional_writing_titles {
+    color: #FF6900;
+    text-align: left;
+    font-size: 1.25em;
+    line-height: 1.75em;
+    margin: 0;
+    padding-top: 3% 0 0 0;
+}
 
 .article_text p {
     font-size: 1.25em;
