@@ -138,15 +138,6 @@ a:hover {
 }
 
 
-.link_to_resume h4 {
-    color: #FF6900;
-    text-align: center;
-    font-size: 1.25em;
-    line-height: 1.75em;
-    margin: 0;
-    padding-top: 3% 0 0 0;
-}
-
 .article_title h3 {
     color: #FF6900;
     font-size: 1.75em;
@@ -194,22 +185,31 @@ p {
     padding-bottom: 2%;
 }
 
-.footer_nav li {
-    color: white;
-    display: inline-block;
-    text-decoration: none;
+
+.footer_rule {
+    border-top: 3px dotted #FF6900;
     margin: 0;
-    padding: 3% 10% 3% 0;
+    padding: 0;  
+}
+
+.footer_nav h4 li {
+    text-decoration: none;
+    display: inline-block;
+    color: #FF6900;
+    text-align: center;
     font-size: 1em;
+    line-height: 1.25em;
+    margin: 0;
+    padding: 0 5% 0 5%;
 }
 
+.bullet {
+    color: #FF6900;
+}
 span {
-    padding-bottom: 2%;
+    padding-bottom: 5%;
 }
 
-.footer_background {
-    background-image: url('../img/footer_background.png')
-}
 
 
 
@@ -304,11 +304,15 @@ span {
    Modify as content requires.
    ========================================================================== */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1123px) {
 
-.footer_nav li {
+.footer_nav h4 li {
     display: block;
     text-align: center;
+}
+
+.bullet {
+    visibility: hidden;
 }
 
 @media print,
@@ -316,6 +320,7 @@ span {
        (min-resolution: 1.25dppx),
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
+}
 }
 
 /* ==========================================================================
