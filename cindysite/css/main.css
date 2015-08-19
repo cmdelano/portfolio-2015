@@ -206,12 +206,17 @@ p {
 .bullet {
     color: #FF6900;
 }
+
 span {
     padding-bottom: 5%;
 }
 
 
-
+    /*li {
+    -webkit-column-break-inside: avoid;
+              page-break-inside: avoid;
+                   break-inside: avoid;
+    }*/
 
 
 
@@ -304,7 +309,7 @@ span {
    Modify as content requires.
    ========================================================================== */
 
-@media screen and (max-width: 1123px) {
+@media screen and (max-width: 1280px) {
 
 .footer_nav h4 li {
     display: block;
