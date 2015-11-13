@@ -32,7 +32,7 @@ a:hover {
 
 .rule {
     border-top: 3px dotted #FF6900;
-    margin: 0;
+    margin: 1%;
     padding: 0;
 }
 
@@ -43,7 +43,7 @@ a:hover {
     text-align: center;
     line-height: .25em;
     margin: 0;
-    padding: 2%;
+    padding: 1.5%;
 
 }
 
