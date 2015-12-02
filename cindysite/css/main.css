@@ -96,7 +96,14 @@ body {
     font-weight: 400;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
 
+/*li {
+    text-decoration: none;
+}*/
 
 a {
     text-decoration: none;
@@ -113,6 +120,12 @@ a:hover {
     padding: 0;
 }
 
+.mobile_menu h3 li {
+    text-decoration: underline red;
+
+
+
+}
 
 
 .rule {
@@ -202,6 +215,7 @@ p {
     margin: 0;
     padding: 0 5% 0 5%;
 }
+
 
 .bullet {
     color: #FF6900;
