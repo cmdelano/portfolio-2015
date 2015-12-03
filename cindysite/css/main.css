@@ -101,9 +101,6 @@ ul {
     padding: 0;
 }
 
-/*li {
-    text-decoration: none;
-}*/
 
 a {
     text-decoration: none;
@@ -120,8 +117,11 @@ a:hover {
     padding: 0;
 }
 
-.mobile_menu h3 li {
-    text-decoration: underline red;
+.mobile_menu li {
+    color: chartreuse;
+    display: inline-block;
+    list-style-type: none;
+    display: none;
 
 
 
@@ -206,14 +206,15 @@ p {
 }
 
 .footer_nav h4 li {
+    list-style-type: none;
     text-decoration: none;
     display: inline-block;
-    color: #FF6900;
+    color: #639;
     text-align: center;
     font-size: 1em;
     line-height: 1.25em;
     margin: 0;
-    padding: 0 5% 0 5%;
+    padding: 0 4% 0 4%;
 }
 
 
@@ -222,6 +223,7 @@ p {
 }
 
 span {
+    margin:;
     padding-bottom: 5%;
 }
 
