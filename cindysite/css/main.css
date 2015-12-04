@@ -117,18 +117,20 @@ a:hover {
     padding: 0;
 }
 
+.nav_squares {
+
+}
+
 .mobile_menu li {
     color: chartreuse;
     display: inline-block;
     list-style-type: none;
-    display: none;
-
-
+    visibility: hidden;
 
 }
 
 
-.rule {
+.rule1 {
     border-top: 3px dotted chartreuse;
     margin: 0;
     padding: 0;
@@ -334,6 +336,14 @@ span {
 
 .bullet {
     visibility: hidden;
+}
+
+.mobile_menu li {
+    color: chartreuse;
+    display: inline-block;
+    list-style-type: none;
+    visibility: visible;
+
 }
 
 @media print,
