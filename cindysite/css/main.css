@@ -108,7 +108,7 @@ a {
 }
 
 a:hover {
-    color: #FF6900;
+    color: gray;
 }
 
 
@@ -117,15 +117,13 @@ a:hover {
     padding: 0;
 }
 
-.nav_squares {
 
-}
 
 .mobile_menu li {
     color: chartreuse;
-    display: inline-block;
+    display: none;
     list-style-type: none;
-    visibility: hidden;
+    /*visibility: hidden;*/
 
 }
 
@@ -137,7 +135,7 @@ a:hover {
 }
 
 .rule2 {
-    border-top: 3px dotted #FF6900;
+    border-top: 3px dotted #666;
     margin: 0;
     padding: 0;  
 }
@@ -154,7 +152,7 @@ a:hover {
 
 
 .article_title h3 {
-    color: #FF6900;
+    color: #;
     font-size: 1.75em;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -164,7 +162,7 @@ a:hover {
 }
 
 .professional_writing_titles {
-    color: #FF6900;
+    color: #666;
     text-align: left;
     font-size: 1.25em;
     line-height: 1.75em;
@@ -175,7 +173,7 @@ a:hover {
 .article_text p {
     font-size: 1.25em;
     line-height: 1.5em;
-    color: #333;
+    color: #999;
     padding-bottom: 3%;
     margin: 0;
 }
@@ -194,7 +192,7 @@ a:hover {
 
 
 p {
-    color: #333;
+    color: #666;
     font-size: 1.25em;
     line-height: 1.5em;
     padding-bottom: 2%;
@@ -202,9 +200,13 @@ p {
 
 
 .footer_rule {
-    border-top: 3px dotted #FF6900;
+    border-bottom: 3px dotted #666;
     margin: 0;
     padding: 0;  
+}
+
+.footer_nav {
+    padding: 0 0 0 12%;
 }
 
 .footer_nav h4 li {
@@ -221,12 +223,12 @@ p {
 
 
 .bullet {
-    color: #FF6900;
+    color: gray;
 }
 
 span {
     margin:;
-    padding-bottom: 5%;
+    padding: 0;
 }
 
 
@@ -338,11 +340,15 @@ span {
     visibility: hidden;
 }
 
+.nav_squares {
+    display: none;
+}
+
 .mobile_menu li {
     color: chartreuse;
     display: inline-block;
     list-style-type: none;
-    visibility: visible;
+    /*visibility: visible;*/
 
 }
 
