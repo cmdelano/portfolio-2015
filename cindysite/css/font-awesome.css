@@ -926,12 +926,12 @@
 .fa-quote-left:before {
   content: "\f10d";
   color: #639;
-  padding: 2%;
+ /* padding: 2%;*/
 }
 .fa-quote-right:before {
   content: "\f10e";
   color: #639;
-  padding-left: 2%;
+  /*padding-left: 2%;*/
 }
 .fa-spinner:before {
   content: "\f110";

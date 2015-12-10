@@ -135,22 +135,53 @@ a:hover {
 }
 
 .rule2 {
-    border-top: 3px dotted #666;
+    border-top: 3px dotted #639;
     margin: 0;
     padding: 0;  
 }
 
-.pullquote {
-    color: gray;
+.blockquote {
+    quotes: "\201C" "\201D";
+    color: #b3b3b3;
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     line-height: 1.75em;
     font-weight: 500;
-    text-align: left;
-    padding-top: 5%;
+    text-align: center;
+    padding: 2% 0 0 0;
     margin: 0;
+}
+
+.blockquote:before {
+    color: #639;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+     margin-right: 0.1em;
+    vertical-align: -0.4em;
+}
+
+.blockquote:after {
+    color: #639;
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-left: 0.1em;
+    vertical-align: -0.4em;
+}
+
+.blockquote p {
+    display: inline;
+}
+
+.blockquote_rule {
+    border-bottom: 3px dotted #639;
+    margin: 5% 0 6% 0;
+    padding: 0; 
 
 }
+
+
 .page_title h1 {
     color: #639;
     font-family: 'Raleway', sans-serif;
@@ -211,7 +242,7 @@ p {
 
 
 .footer_rule {
-    border-bottom: 3px dotted #666;
+    border-bottom: 3px dotted #639;
     margin: 0;
     padding: 0;  
 }
@@ -229,7 +260,7 @@ p {
     font-size: 1em;
     line-height: 1.25em;
     margin: 0;
-    padding: 0 4% 0 4%;
+    padding: 4%;
 }
 
 
