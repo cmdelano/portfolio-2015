@@ -3,7 +3,7 @@
 
 body {
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
 
@@ -14,7 +14,7 @@ a {
 }
 
 a:hover {
-    color: #FF6900;
+    color: gray;
 }
 
 
@@ -31,14 +31,14 @@ a:hover {
 
 
 .rule {
-    border-top: 3px dotted #FF6900;
+    border-top: 3px dotted #639;
     margin: 1%;
     padding: 0;
 }
 
 
 .resume_header p {
-    color: #639;
+    color: gray;
     font-size: 1em;
     text-align: center;
     line-height: .25em;
@@ -60,7 +60,7 @@ h3 {
 }
 
 p {
-    color: #333;
+    color: #666;
     font-size: 1em;
     font-weight: 300;
     line-height: 1.25em;
@@ -69,10 +69,13 @@ p {
 }
 
 ul {
-    color: #333;
-    margin: 2% 0 0 0;}
+    color: #666;
+    margin: 2% 0 0 0;
+}
 
-
+.footer_padding {
+    padding-bottom: 1%
+}
 
 
 
