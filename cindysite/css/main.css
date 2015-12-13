@@ -92,7 +92,7 @@ textarea {
 
 body {
     font-size: 16px;
-    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-family: 'Lato', Arial, Helvetical; sans-serif;
     font-weight: 400;
 }
 
@@ -100,6 +100,7 @@ ul {
     margin: 0;
     padding: 0;
 }
+
 
 a {
     text-decoration: none;
@@ -139,8 +140,6 @@ a:hover {
     padding: 0;  
 }
 
-
-/* CINDY: adjust size of text for mobile query */;
 .blockquote {
     quotes: "\201C" "\201D";
     color: #b3b3b3;
@@ -153,11 +152,10 @@ a:hover {
     margin: 0;
 }
 
-
 .blockquote:before {
     color: #639;
     content: open-quote;
-    font-size: 3.5em;
+    font-size: 4em;
     line-height: 0.1em;
      margin-right: 0.1em;
     vertical-align: -0.4em;
@@ -166,7 +164,7 @@ a:hover {
 .blockquote:after {
     color: #639;
     content: close-quote;
-    font-size: 3.5em;
+    font-size: 4em;
     line-height: 0.1em;
     margin-left: 0.1em;
     vertical-align: -0.4em;
@@ -250,7 +248,7 @@ p {
 }
 
 .footer_nav {
-    padding: 0 0 0 11%;
+    padding: 0 0 0 12%;
 }
 
 .footer_nav h4 li {
@@ -262,22 +260,18 @@ p {
     font-size: 1em;
     line-height: 1.25em;
     margin: 0;
-    padding: 2%;
+    padding: 4%;
 }
 
-.copyright {
-    color: #639;
-    text-align: center;
-}
 
 .bullet {
     color: gray;
 }
 
-/*span {
-    margin: 0;
+span {
+    margin:;
     padding: 0;
-}*/
+}
 
 
     /*li {
@@ -376,24 +370,18 @@ p {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-/* CINDY: change to @media "all" */;
 
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 1280px) {
 
 .footer_nav h4 li {
     display: block;
     text-align: center;
-    margin: 0;
-    padding: 0;
 }
 
 .bullet {
     visibility: hidden;
 }
 
-
-/* CINDY: does a new media query need to be put in here or just massage agove media queries? */;
 .nav_squares {
     display: none;
 }
@@ -404,7 +392,6 @@ p {
     list-style-type: none;
     /*visibility: visible;*/
 
-}
 }
 
 @media print,
