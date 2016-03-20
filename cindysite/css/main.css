@@ -344,7 +344,6 @@ span  {
     padding: 1%;
 }
 
-
 .footer_nav h4 li {
     display: block;
     text-align: center;
@@ -359,12 +358,6 @@ span  {
 .footer_nav ul {
     margin-left: 3%;
 }
-
-/*@media screen and (max-width: 1120px) {
-
-.footer_nav {
-    margin-left: 75%;
-}*/
 
 
 
